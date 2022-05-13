@@ -6,31 +6,40 @@
 
 :root {
 	--turquoise: #00c4c4;
-	--winning-blocks: #fc5141;
+	--background-color: #212121;
+	--winning-blocks: #161616;
 }
 
-body {
+html {
+	background-color: var(--background-color);
 	color: var(--turquoise);
-	font-family: "Comfortaa", cursive;
+	font-family: "Ubuntu", sans-serif;
 }
 
 h1 {
 	font-size: 56px;
-	font-weight: 700;
+	font-weight: 400;
+	margin: 50px;
 }
 
 button {
 	padding: 15px 30px;
-	border: none;
+	border: 1px solid var(--turquoise);
 	border-radius: 8px;
-	background-color: var(--turquoise);
-	color: white;
-	margin-top: 60px;
-   font-family: "Comfortaa", cursive;
+	background-color: transparent;
+	color: var(--turquoise);
+	margin-top: 80px;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 20px;
-   font-weight: bold;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 250ms ease-in-out;
+}
+
+button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .container,
