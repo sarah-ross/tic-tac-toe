@@ -17,7 +17,7 @@ html {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	margin: 40px;
 }
 
@@ -29,7 +29,7 @@ button {
 	color: var(--turquoise);
 	margin-top: 80px;
 	font-family: "Permanent Marker", cursive;
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: all 250ms ease-in-out;
