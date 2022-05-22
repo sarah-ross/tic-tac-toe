@@ -17,8 +17,8 @@ html {
 }
 
 h1 {
-	font-size: 3.25rem;
-	margin: 50px;
+	font-size: 3rem;
+	margin: 40px;
 }
 
 button {
@@ -30,6 +30,8 @@ button {
 	margin-top: 80px;
 	font-family: "Permanent Marker", cursive;
 	font-size: 1.75rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	transition: all 250ms ease-in-out;
 }
 
@@ -41,7 +43,6 @@ button:hover {
 .container,
 .box,
 #gameBoard {
-	max-width: 90%;
 	display: flex;
 }
 
