@@ -13,12 +13,11 @@
 html {
 	background-color: var(--background-color);
 	color: var(--turquoise);
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Permanent Marker", cursive;
 }
 
 h1 {
-	font-size: 56px;
-	font-weight: 400;
+	font-size: 3.25rem;
 	margin: 50px;
 }
 
@@ -29,11 +28,8 @@ button {
 	background-color: transparent;
 	color: var(--turquoise);
 	margin-top: 80px;
-	font-family: "Ubuntu", sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-family: "Permanent Marker", cursive;
+	font-size: 1.75rem;
 	transition: all 250ms ease-in-out;
 }
 
@@ -45,6 +41,7 @@ button:hover {
 .container,
 .box,
 #gameBoard {
+	max-width: 90%;
 	display: flex;
 }
 
